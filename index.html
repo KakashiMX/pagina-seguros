@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotiza tu seguro</title>
+    <link rel="stylesheet" href="./styles/styes.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="contenedor_formulario">
+            <img 
+                src="./assets/images/auto.webp" 
+                alt="auto"
+                class="formulario_imagen"
+            >
+            <form class="formulario" id="formulario">
+                <p class="form_texto">Cotiza tu seguro con nosotros</p>
+                <div class="form_grupo">
+                    
+                </div>
+
+               <div class="form_grupo_par">
+                    <fieldset class="form_grupo">
+                        <legend class="form_label">Marca de tu auto</legend>
+                        <select 
+                            name="marca" 
+                            id="marca"
+                            class="form_select">
+                            <option value="marca" class="marca_opciones"></option>
+                        </select>
+                    </fieldset>
+
+                    <fieldset class="form_grupo">
+                        <legend class="form_label">Modelo</legend>
+                        <select 
+                            name="modelo" 
+                            id="modelo"
+                            class="form_select">
+                            <option value="modelo" class="marca_opciones"></option>
+                        </select>
+                    </fieldset>
+               </div>
+
+                <div class="form_grupo_par">
+                    <fieldset class="form_grupo">
+                        <legend class="form_label">Submarca</legend>
+                        <select name="submarca" id="submarca" class="form_select">
+                            <option value="submarca" class="marca_opciones"></option>
+                        </select>
+                    </fieldset>
+    
+    
+                    <fieldset class="form_grupo">
+                        <legend class="form_label">Descripción</legend>
+                        <select name="descripcion" id="descripcion" class="form_select">
+                            <option value="descripcion" class="marca_opciones"></option>
+                        </select>
+                </div>
+                </fieldset>
+
+                <p class="form_texto">Datos del conductor</p>
+    
+
+                <div class="form_grupo_par">
+                    <fieldset class="form_grupo">
+                        <legend class="form_label">Edad del conductor</legend>
+                        <input 
+                            type="number" 
+                            class="form_entrada"
+                            min="18"
+                            id="edad"
+                            placeholder="Ej. 27"
+                        />
+                    </fieldset>
+    
+                    <fieldset class="form_grupo">
+                        <legend class="form_label">Género</legend>
+                        <select name="genero" id="genero" class="form_select">
+                            <option value="masculino" class="edad">Masculino</option>
+                            <option value="femenino" class="edad">Femenino</option>
+                            <option value="no indicado" class="edad">Prefiero no indicarlo</option>
+                        </select>
+                    </fieldset>
+                </div>
+
+               <div class="form_grupo_par">
+                <fieldset class="form_grupo">
+                    <legend class="form_label">Código Postal</legend>
+                    <input 
+                        type="text" 
+                        class="form_entrada"
+                        id="codigo"
+                        placeholder="Ej. 56321"
+                    />
+                </fieldset>
+
+                <fieldset class="form_grupo">
+                    <legend class="form_label">Nombre Completo</legend>
+                    <input 
+                        type="text" 
+                        class="form_entrada"
+                        id="nombre"
+                        placeholder="Ej. Luis Mora Lopez"
+                    />
+                </fieldset>
+               </div>
+
+               <div class="form_grupo_par">
+                <fieldset class="form_grupo">
+                    <legend class="form_label">Correo Electrónico</legend>
+                    <input 
+                        type="email" 
+                        class="form_entrada"
+                        id="correo"
+                        placeholder="Ej. micorreo@correo.com"
+                    />
+                </fieldset>
+
+                <fieldset class="form_grupo">
+                    <legend class="form_label">Número Telefónico</legend>
+                    <input 
+                        type="tel" 
+                        class="form_entrada"
+                        id="telefono"
+                        placeholder="Ej. 5529102938"
+                        
+                    />
+                </fieldset>
+               </div>
+               
+                <div class="form_terminos">
+                    <div class="checkbox-wrapper-40">
+                        <label>
+                          <input type="checkbox"/>
+                          <span class="checkbox"></span>
+                        </label>
+                      </div>
+    
+                      <small>Estoy de acuerdo con los Términos de servicio & Politica de privacidad</small>
+
+                </div>
+
+                <div class="form_grupo form_grupo_enviar">
+                    <input type="submit" class="form_enviar" value="Cotizar ahora" >
+                </div>
+              
+            </form>
+           
+        </div>
+        <div class="contenido_iconos">
+            <h2 class="form_subtitulo">Recibe todos los beneficios de tu Seguro de Autos GNP</h2>
+        </div>
+        
+
+        <div class="contenedor_contenido">
+            <h2 class="contenido_subtitulo">Beneficios al cotizar tu seguro con GNP Seguros de autos</h2>
+            <p class="contenido_texto">GNP Seguros es una de las compañías que logra atender cerca de 300,000 siniestros al año, además de poder ofrecer los servicios las 24 horas, los 365 días al año de manera presencial, telefónica o por internet. Como parte de su misión principal que tiene Aseguradora GNP, esta desea inspirar a la excelencia de servicio respetando la integridad y competencia de las personas con empleados.</p>
+
+            <p class="contenido_texto">Dentro de los mismos valores este puede encontrar la innovación, competitividad, enfoque de resultados y profesionalismo, lo mismo que puede hacer valer la solidez, esta que suele representar a una empresa líder en el ramo de autos.</p>
+
+            <p class="contenido_texto">La línea GNP Seguros es una de las aseguradoras que se especializa en los Seguros de Auto, la misma que ofrece una cobertura que se adapta a cada una de las necesidades del usuario como Auto Turista y Auto Casa, además de estar dentro de la gama de productos que ofrece las garantías que hacen diferencia para cada cliente, en los que puede destacar:</p>
+
+            <h2 class="contenido_subtitulo">Asegura tu auto con el seguro de auto GNP</h2>
+
+            <p class="contenido_texto">Como parte de los beneficios que ofrece esta compañía aseguradora, puedes contar con más años de experiencia, además de la calidad en el servicio, la línea GNP es además una de las principales características que brinda beneficios únicos, que como ejemplo esta tiene la garantía de servicio dentro de un plazo necesario de 24 horas, cuenta con una amplia red de agentes y el seguimiento de trámite de siniestros, así como el pago de deducible online entre otros.</p>
+
+            <p class="contenido_texto">Contar con el respaldo de GNP Seguros, puedes estar consciente de sentirte protegido en todo el país y en el extranjero, además de que puedes estar amparado contra toda clase de imprevistos que pudieran ocurrir, pues los Seguros de Autos GNP se encargaran de cuidar a más clientes entre:</p>
+
+            <p class="contenido_texto">Poder contratar una póliza de seguros de autos con GNP es una de las mejores alternativas, ya que se puede contar con beneficios caracterizados, esto es precisamente para poder otorgar los seguros para autos más efectivos del país.</p>
+
+            <p class="contenido_texto">GNP Seguros tiene la posibilidad de ofrecer las diferentes características que esta necesita, además de que podrás sentirte seguro y respaldado, ya que podrás contar con el apoyo amplio y completo para los diferentes accidentes, así como el mismo robo y la pérdida total del auto, por lo que GNP Seguros ofrece las mejores cualidades y características como:</p>
+
+            <p class="contenido_texto">GNP Aseguradora es una de las numerosas compañías que trae consigo grandes ventajas, como ejemplo de ello esta es una de las que se encarga de simplificar nuestros traslados diarios, lo que permite hacer el paseo de los fines de semana, sin embargo, ser el dueño de un vehículo también significa que es necesario cuidarlo, ya que se trata de un bien muy preciado.</p>
+
+            <p class="contenido_texto">Con el propósito de que existan los seguros de autos adecuados o de los cuáles estas sirvan como herramientas que nos protegen ante diferentes tipos de imprevistos como pudiera ser un robo, accidente o contingencia climática, entre otros.</p>
+
+            <p class="contenido_texto">Existe en nuestro país una abundante oferta, por lo que es la tarea del automovilista capaz de determinar cuál es la alternativa más adecuada; es de esta manera como necesitas conocer lo que mejor te convenga así como GNP Seguros, misma que se entenderá como los aspectos que son importantes, acerca de la prestigiosa compañía de seguros.</p>
+
+            <h2 class="contenido_subtitulo">Seguros GNP ¿Qué coberturas ofrece?</h2>
+
+            <p class="contenido_texto">En Ahora Seguros nos encargamos de ofrecer grandes ventajas, además de contar con una firme alianza para facilitar la accesibilidad a cada uno de sus clientes o de los mismos servicios financieros, con el objetivo de encontrar y otorgar una mejor atención de mayor valor a cada usuario y colaborador, este es uno de los motivos principales por los que trabaja de la mano de GNP Seguros.</p>
+
+            <p class="contenido_texto">Con esta alianza podrás tener la seguridad de encontrar un bien común en el que esta te apoye y respalde ante un accidente, con un servicio eficiente para comenzar con la descripción correcta, por lo que se puede necesitar la atención de los accesos a los asesores, del mismo experto en el sector asegurador, por tal motivo es necesario comparar lo mejor de las aseguradoras en nuestro portal online de Ahorraseguros.mx para descubrir lo que mejor te convenga.</p>
+
+            <p class="contenido_texto">Seguros GNP podrá atender cada una de tus necesidades en el mercado asegurador, es de esta manera como GNP Seguros, por lo que en la alianza con Ahorra Seguros se puede encontrar el bienestar y tranquilidad que son lo más importante, al trGNPjar juntos se tiene como finalidad la posibilidad de brindarte las mejores alternativas, para que puedas obtener lo que requieres como:</p>
+
+            <p class="contenido_texto">Cobertura Básica Seguro de Auto GNP</p>
+
+            <p class="contenido_texto">Se puede conseguir la atención y respaldo por Responsabilidad Civil hasta por 1 millón de pesos en daños a terceros, o hasta 100 mil dólares si ocurre en una localidad diferente, así como los gastos médicos, asistencia vial y legal.</p>
+
+            <p class="contenido_texto">Cobertura Limitada Seguro de Auto GNP</p>
+
+            <p class="contenido_texto">Esta es una cobertura que ofrece un seguro más completo en la que se incluye la seguridad que brinda una cobertura básica, además de estar protegido en caso del robo total del automóvil y esta es también con la que se podrá disponer de un préstamo, en el que se pueda utilizar por al menos 20 días alrededor de toda la República Mexicana y hasta 30 días en la Ciudad de México.</p>
+        </div>
+    </div>
+      
+    <script src="./script/app.js"></script>
+</body>
+</html>
